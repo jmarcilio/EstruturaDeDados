@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include "listaSim.h"
 
+typedef struct no{
+	typeDado *dado;
+    struct no *prox;
+}listaSimples;
+
 listaSimples * criaListaSim(){
     return NULL;
 }

@@ -3,15 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int id = 1;
-
-typedef struct aluno{
-	int id;
-	char nome[30];
-    char curso[30];
-	listaSimples *amigos;
-}Aluno;
-
+typedef struct aluno Aluno;
 
 Aluno *leAluno();
 
@@ -19,7 +11,7 @@ void alterarNome(Aluno* a);
 
 void alterarCurso(Aluno* a);
 
-char* retornaCurso(Aluno* a);
+char *retornaCurso(Aluno* a);
 
 void imprimeAluno(Aluno* a);
 

@@ -1,5 +1,13 @@
 #include "aluno.h"
 
+int id = 1;
+
+typedef struct aluno{
+	int id;
+	char nome[30];
+    char curso[30];
+	listaSimples *amigos;
+}Aluno;
 
 Aluno *leAluno(){
   char nome[30];

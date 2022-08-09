@@ -1,10 +1,7 @@
 #include <stdlib.h>
 #define typeDado int
 
-typedef struct no{
-	typeDado *dado;
-    struct no *prox;
-}listaSimples;
+typedef struct no listaSimples;
 
 listaSimples * criaListaSim();
 

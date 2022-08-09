@@ -1,5 +1,11 @@
 #include "listaDupla.h"
 
+typedef struct no{
+	typeDado *dado;
+    struct no *prox;
+    struct no *ant;
+}listaDupla;
+
 listaDupla * criaListaDupla(){
     return NULL;
 }

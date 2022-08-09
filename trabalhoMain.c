@@ -2,7 +2,7 @@
 #include "listaDupla.h"
 
 int main(){
-
+int id;
 listaDupla **a = criaListaDupla();
 
     int continuar=1;

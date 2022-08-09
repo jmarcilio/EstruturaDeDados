@@ -3,11 +3,7 @@
 #include <stdlib.h>
 #define typeDado Aluno
 
-typedef struct no{
-	typeDado *dado;
-    struct no *prox;
-    struct no *ant;
-}listaDupla;
+typedef struct no listaDupla;
 
 int listaDuplaVazia(listaDupla ** a);
 
